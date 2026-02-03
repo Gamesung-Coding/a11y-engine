@@ -1,12 +1,12 @@
 export const A11Y_STORAGE_KEY = "a11y-settings";
 
-export const A11Y_CONFIG = {
+export const A11Y_CONFIG = Object.freeze({
   CONTRAST: { levels: 4, prefix: "a11y-contrast" },
   TEXT_SIZE: { levels: 3, prefix: "a11y-text-size" },
   SPACING: { levels: 3, prefix: "a11y-spacing" },
   LINE_HEIGHT: { levels: 3, prefix: "a11y-leading" },
   ALIGN: ["left", "center", "right"],
-} as const;
+} as const);
 
 export interface A11yState {
   contrastLevel: number;
