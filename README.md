@@ -118,4 +118,4 @@ const { state, actions } = useA11y("ko-KR");
 
 **MIT License**
 
-See [LICENSE](https://github.com/gscd-dev/a11y-market-web?tab=MIT-1-ov-file#readme) for more information.
+See [LICENSE](https://github.com/gscd-dev/a11y-engine?tab=MIT-1-ov-file#readme) for more information.
